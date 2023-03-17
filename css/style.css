@@ -7,6 +7,7 @@
   --color-text-slate: #434455ff;
   --color-cloud: #f4f4fdff;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-text-slate, #434455);
@@ -66,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color-blue);
+  color: var(--color-text-slate);
 }
 .address:focus,
 .address:hover {
@@ -112,7 +113,7 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: var(--primary-text-color-blue, #434455);
+  color: var(--primary-text-color-blue);
 }
 .caption-section {
   font-weight: 700;
@@ -124,7 +125,10 @@ body {
   color: var(--primary-text-color-blue);
 }
 .section-team {
-  background-color: var(--background-color-white, #ffffff);
+  background-color: var(--color-cloud);
+}
+.team-background {
+  background-color: var(--background-color-white);
 }
 .title-name {
   font-weight: 500;
@@ -189,16 +193,25 @@ body {
   background-color: var(--color-button-ocean);
 }
 .button-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-blue);
+  
 }
 .button-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
+}
+.about a{
+  text-decoration: none;
 }
