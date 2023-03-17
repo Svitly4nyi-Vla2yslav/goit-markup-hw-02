@@ -1,20 +1,29 @@
 :root {
-  --primary-text-color-blue: #2e2f42;
+  --primary-text-color-blue: #2E2F42;
   --secondary-text-color-white: #ffffff;
   --color-button-iris: #4d5ae5ff;
   --color-button-ocean: #404bbfff;
+  --background-color-white: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color-blue);
+  background-color: var(--background-color-white);
 }
 /* =======HEADER======== */
-.logo {
-  font-family: 'Raleway';
+.logo, 
+.logo-studio {
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-button-iris);
+}
+.logo-studio{
   color: var(--primary-text-color-blue);
 }
 .logo:hover,
@@ -30,7 +39,7 @@ body {
 .item {
   list-style: none;
 }
-.link-header {
+.link-header{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,6 +133,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-decoration: none;
